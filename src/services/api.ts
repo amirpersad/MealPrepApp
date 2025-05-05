@@ -1,4 +1,5 @@
-const API_KEY = 'caa676c2603d400794c4c73cc704ba05'
+const API_KEY = import.meta.env.VITE_API_KEY; // Vite example
+
 const BASE_URL = 'https://api.spoonacular.com/recipes/'
 
 export const getTrendingRecipes = async () => {

@@ -44,7 +44,7 @@ const Home = () => {
       <div className="title pt-8">
         <h1 className="text-center text-4xl font-bold">CrumbTrail</h1>
         <p className="text-center mt-2 text-xl italic">
-          A trail of tastier choices
+          Leaving a trail of tastier choices
         </p>
       </div>
       <div className="search mt-10 mx-[20px]">
